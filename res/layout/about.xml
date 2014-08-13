@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvIpsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distillery four loko pork belly keytar. Truffaut food truck actually mixtape try-hard Cosby sweater, cray Godard umami fingerstache cliche banjo tofu you probably haven't heard of them. Food truck cornhole swag beard, Thundercats Echo Park occupy asymmetrical flexitarian Bushwick iPhone. Cardigan wolf blog, ennui church-key tattooed butcher art party mustache Marfa forage. You probably haven't heard of them fingerstache flexitarian, Intelligentsia vinyl hella kogi. Odd Future sustainable banjo mixtape, tote bag messenger bag Carles tattooed chia Etsy Truffaut Banksy single-origin coffee small batch Tumblr. Mixtape chambray chillwave shabby chic, craft beer brunch squid selvage banh mi Vice ennui organic." />
+
+</LinearLayout>
