@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -127,9 +127,28 @@
             android:label="InternalData"
             android:screenOrientation="portrait" >
         </activity>
-         <activity
+        <activity
             android:name=".ExternalData"
             android:label="InternalData"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SQLiteExample"
+            android:label="SQLiteExample"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SQLView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.blaze.SQLVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Accelerate"
+            android:label="Accelerate"
             android:screenOrientation="portrait" >
         </activity>
     </application>
