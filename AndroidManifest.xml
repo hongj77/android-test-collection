@@ -151,6 +151,11 @@
             android:label="Accelerate"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name=".HttpExample"
+            android:label="HttpExample"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>
