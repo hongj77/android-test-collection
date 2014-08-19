@@ -156,6 +156,11 @@
             android:label="HttpExample"
             android:screenOrientation="portrait" >
         </activity>
+         <activity
+            android:name=".WeatherXMLParsing"
+            android:label="WeatherXMLParsing"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>
